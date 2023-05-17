@@ -1,0 +1,103 @@
+/* ELEMENT SELECTORS*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: "Merienda", serif;
+  font-size: 5.625rem;
+  margin: 3.125rem auto 0 auto;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Spectral", serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Spectral", serif;
+}
+
+p {
+  color: #40514e;
+}
+
+hr {
+  border: none;
+  border-top: 0.5rem dotted#eaf6f6;
+  width: 0.05rem;
+  margin: 6.25rem auto;
+}
+
+/* CLASS SELECTORS*/
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 6.25rem;
+}
+
+.skill-row {
+  width: 0.5rem;
+  position: relative;
+  margin: 6.25rem auto 6.25rem auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+  color: white;
+  padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/* Images */
+
+.top-cloud {
+  position: absolute;
+  right: 18.75rem;
+  top: 3.125rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 18.75rem;
+  bottom: 18.75rem;
+}
+
+.code-gif {
+  width: 0.25rem;
+  float: left;
+  margin-right: 1.875rem;
+}
+
+.karate-gif {
+  width: 0.25rem;
+  float: right;
+  margin-left: 1.875rem;
+}
