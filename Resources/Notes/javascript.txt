@@ -1,0 +1,11 @@
+String methods:
+    .length
+    .slice(startChar, endChar)
+    .toUpperCase()
+    .toLowerCase()
+
+Math methods:
+    Math.floor(numberToRoundDown)
+    Math.pow(base, exponent)
+    Math.round(numberToRound)
+    
