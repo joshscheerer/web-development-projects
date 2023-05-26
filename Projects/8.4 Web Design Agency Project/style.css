@@ -22,11 +22,11 @@ h1 {
   width: 45%;
 }
 
-.left.card {
+.left {
   float: left;
 }
 
-.right.card {
+.right {
   float: right;
 }
 
@@ -51,11 +51,9 @@ footer {
     text-align: center;
   }
 
-  .left.card,
-  .right.card {
+  .card {
     width: 100%;
     margin-bottom: 30px;
-    float: none;
   }
 
   .card-title {
