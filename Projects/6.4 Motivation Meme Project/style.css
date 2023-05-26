@@ -2,11 +2,13 @@ body {
   background-color: black;
   color: white;
   text-align: center;
+  font-family: "Libre Baskerville", serif;
 }
 
 div {
   width: 50%;
   margin-left: 25%;
+  margin-top: 50px;
 }
 
 img {
