@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+h1 {
+  font-size: 8rem;
+}
+
+.container {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.d1,
+.d2 {
+  display: inline-block;
+  margin: 20px;
+}
+
+footer {
+  margin-top: 10px;
+}
