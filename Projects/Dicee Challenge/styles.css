@@ -16,6 +16,9 @@ h1 {
   display: inline-block;
   margin: 20px;
 }
+.w {
+  background-image: "images/crash.png";
+}
 
 footer {
   margin-top: 10px;
